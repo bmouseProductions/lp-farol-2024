@@ -3,7 +3,7 @@ import logo from '../../../../assets/images/logoWhite.svg'
 export default function SectionSix(){
     return (
         <section className="bg-[#108824]">
-            <div className='container mx-auto py-20 px-5 md:px-10 xl:px-20 text-white'>
+            <div className='container mx-auto py-10 md:py-20 px-5 md:px-10 xl:px-20 text-white'>
                 <div className="flex flex-col items-center ">
                     <img
                         loading="lazy"

@@ -4,10 +4,11 @@ import silo from '../../../../assets/images/silo.webp'
 
 export default function SectionFive(){
     return (
-        <section className="container pt-20 md:pb-20  mx-auto px-5 md:px-10 xl:px-20">
-            <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-5 lg:gap-10 xl:gap-20">
+
+        <section className="">
+            <div className="container pt-20 md:pb-20  mx-auto px-5 md:px-10 xl:px-20 flex flex-col-reverse md:flex-row-reverse items-center gap-5 lg:gap-10 xl:gap-20">
                 <div className='w-full'>
-                    <img src={silo} alt="" />
+                    <img src={silo} className='hidden md:block' alt="" />
                 </div>
                 <div className='w-full flex flex-col gap-4'>
                     <img src={logo} className='w-[100px] md:w-[150px] mx-auto md:mx-0 ' alt="" />
@@ -21,11 +22,12 @@ export default function SectionFive(){
                         servem como matérias-primas para diversos setores da economia nacional.
                     </p>
 
-                    <div className='2xl:mt-10'>
+                    <div className='2xl:mt-10 flex justify-center'>
                         <Botao link='https://www.farol.ind.br/view/index.php/contato/' texto='fale conosco' />
                     </div>
                 </div>
             </div>
+            <img src={silo} className='mb-[-5px] relative z-[-10] md:hidden' alt="" />
         </section>
     )
 }

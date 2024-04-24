@@ -185,7 +185,7 @@ const produtos = [
 
 export default function SectionFour() {
     return (
-        <section className=' py-20'>
+        <section className='py-10 md:py-20'>
             <div className='container mx-auto px-5 md:px-10 xl:px-20'>
                 <img 
                     src={logo} 

@@ -4,7 +4,7 @@ import Botao from '../../../../components/Botao/Botao'
 
 export default function SectionTwo() {
     return (
-        <section className="container mx-auto py-20 px-5 md:px-10 xl:px-20">
+        <section className="container mx-auto py-10 md:py-20 px-5 md:px-10 xl:px-20">
             <div className="flex flex-col-reverse md:flex-row items-center gap-5 lg:gap-10 xl:gap-20">
                 <div className='w-full'>
                     <img src={planta} alt="" />

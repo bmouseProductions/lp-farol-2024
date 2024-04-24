@@ -10,7 +10,7 @@ import binoculo from '../../../../assets/images/SectionOne/binoculo.webp'
 
 export default function SectionOne(){
     return (
-        <section className="py-20 text-white bg-[#30a072] ">
+        <section className="py-10 md:py-20 text-white bg-[#30a072] ">
             <div className='flex justify-center'>
                 <Swiper
                     slidesPerView={1.3}

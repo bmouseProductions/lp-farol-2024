@@ -1,12 +1,15 @@
+import { Swiper,SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper/modules'
+
 import logo from '../../../../assets/images/logo.svg'
-import caminhao1 from '../../../../assets/images/SectionSix/caminhao1.webp'
+import caminhaoX from '../../../../assets/images/SectionSix/caminhaoX.webp'
 import caminhao2 from '../../../../assets/images/SectionSix/caminhao2.webp'
 import caminhao3 from '../../../../assets/images/SectionSix/caminhao3.webp'
 import caminhao4 from '../../../../assets/images/SectionSix/caminhao4.webp'
 
 export default function SectionEight(){
     return (
-        <section className='py-20  '>
+        <section className='py-10 md:py-20  '>
             <div className='container px-5 md:px-10 xl:px-20 mx-auto'>
                 <div className='mx-auto'>
                     <img src={logo} className='mx-auto w-[100px] md:w-[150px] mb-5 ' alt="" />
@@ -21,14 +24,47 @@ export default function SectionEight(){
                         </p>
                     </div>
                 </div>
-                <div className='flex flex-col lg:flex-row justify-center gap-5 '>
-                    <img src={caminhao1} className=' lg:w-[600px] lg:h-[600px] ' alt="" />
-                    <div className='flex flex-col gap-5'>
-                        <img src={caminhao2} className='lg:w-[280px] ' alt="" />
-                        <img src={caminhao3} className='lg:w-[280px] ' alt="" />
-                        <img src={caminhao4} className='lg:w-[280px] ' alt="" />
-                    </div>
-                </div>
+
+                <Swiper
+                    spaceBetween={20}
+                    centeredSlides={true}
+                    modules={[Pagination]}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    slidesPerView={1}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            slidesPerGroup: 2,
+                            centeredSlides: false
+                        },
+                        1200: {
+                            slidesPerView: 4,
+                            centeredSlides: false
+                          },
+                      }}
+                    className="mySwiper !min-h-[250px] !p-4 w-full "
+                >
+                    <SwiperSlide className='!flex !justify-center'>
+                        <img src={caminhaoX} className='rounded-[30px] ' alt="" />
+                    </SwiperSlide>
+
+                    <SwiperSlide className='!flex !justify-center'>
+                        <img src={caminhao2} alt="" />
+                    </SwiperSlide>
+
+                    <SwiperSlide className='!flex !justify-center'>
+                        <img src={caminhao3} alt="" />
+                    </SwiperSlide>
+
+                    <SwiperSlide className='!flex !justify-center'>
+                        <img src={caminhao4} alt="" />
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </section>
     )

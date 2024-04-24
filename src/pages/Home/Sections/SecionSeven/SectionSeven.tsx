@@ -23,7 +23,7 @@ import ave from '../../../../assets/images/SectionFive/chicken.svg'
 export default function SectionSeven() {
 
     return (
-        <section className='container py-20 px-5 md:px-10 xl:px-20 mx-auto flex flex-col-reverse lg:flex-row gap-3 lg:gap-10'>
+        <section className='container py-10 md:py-20 px-5 md:px-10 xl:px-20 mx-auto flex flex-col-reverse lg:flex-row gap-3 lg:gap-10'>
             <Swiper
                 centeredSlides= {true}
                 spaceBetween={30}

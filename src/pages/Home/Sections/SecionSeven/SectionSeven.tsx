@@ -57,7 +57,7 @@ export default function SectionSeven() {
 
                                 <div className="w-full xl:w-[100%] flex flex-col">
                                     <span className="text-lg font-semibold">Telefone</span>
-                                    <p className='text-base'>+55 (49) 3520 - 2000</p>
+                                    <p className='text-base'>+55 (49) 3520-2000</p>
                                 </div>
                             </div>
 
@@ -97,7 +97,7 @@ export default function SectionSeven() {
 
                                 <div className="w-full xl:w-[100%] flex flex-col">
                                     <span className="text-lg font-semibold">Telefone</span>
-                                    <p className='text-base'>+55 (48) 3039 - 8826</p>
+                                    <p className='text-base'>+55 (48) 3039-8826</p>
                                 </div>
                             </div>
                             
@@ -143,7 +143,7 @@ export default function SectionSeven() {
                                 <div className="w-2/3 md:w-auto flex flex-wrap gap-2">
                                     <div>
                                         <span className='font-semibold'>Administrativo:</span>
-                                        <p className='text-base'>+55 (44) 3132 - 1110</p>
+                                        <p className='text-base'>+55 (44) 3132-1110</p>
                                     </div>
 
                                     <div>
@@ -211,7 +211,7 @@ export default function SectionSeven() {
 
                                 <div className="w-full xl:w-[100%] flex flex-col">
                                     <span className="text-lg font-semibold">Telefone</span>
-                                    <p className='text-base'>+55 (47) 3363 - 7298</p>
+                                    <p className='text-base'>+55 (47) 3363-7298</p>
                                 </div>
                             </div>
 
@@ -251,7 +251,7 @@ export default function SectionSeven() {
 
                                 <div className="w-full xl:w-[100%] flex flex-col">
                                     <span className="text-lg font-semibold">Telefone</span>
-                                    <p className='text-base'>+55 (47) 3346 - 6189</p>
+                                    <p className='text-base'>+55 (47) 3346-6189</p>
                                 </div>
                             </div>
                             
@@ -315,16 +315,16 @@ export default function SectionSeven() {
                                 <div className="w-2/3 md:w-auto flex flex-wrap gap-2">
                                     <div>
                                         <span className='font-semibold'>Administrativo:</span>
-                                        <p className='text-base'>+55 (54) 3180 - 0203</p>
+                                        <p className='text-base'>+55 (54) 3180-0203</p>
                                     </div>
                                     <div>
                                         <span className='font-semibold'>Portaria</span>
-                                        <p className='text-base'>+55 (54) 9921 - 1946</p>
+                                        <p className='text-base'>+55 (54) 9921-1946</p>
                                     </div>
 
                                     <div>
                                         <span className='font-semibold'>Coleta:</span>
-                                        <p className='text-base'>+55 (54) 9935 - 8009</p>
+                                        <p className='text-base'>+55 (54) 9935-8009</p>
                                     </div>
                                 </div>
                             </div>
@@ -369,7 +369,7 @@ export default function SectionSeven() {
                                     <div className="w-2/3 md:w-auto flex flex-wrap gap-2">
                                         <div>
                                             <span className='font-semibold'>Administrativo:</span>
-                                            <p className='text-base'>+55 (47) 99733 - 0293</p>
+                                            <p className='text-base'>+55 (47) 99733-0293</p>
                                         </div>
                                         <div>
                                             <span className='font-semibold'>Meio Ambiente:</span>

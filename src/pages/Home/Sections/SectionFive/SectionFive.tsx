@@ -18,8 +18,10 @@ export default function SectionFive(){
                     </h2>
 
                     <p className='text-center md:text-start'>
-                        Pertencente ao Grupo Patense, a Farol recicla produtos de origem animal produzindo proteínas e gorduras que 
-                        servem como matérias-primas para diversos setores da economia nacional.
+                        Depois da recepção, os insumos passam por processos térmicos para produção de farinhas e gorduras. Os produtos graxos 
+                        são insumos nas indústrias de higiene, limpeza, cosmética, farmacêutica, de biocombustível e de alimentação animal. 
+                        Já as farinhas, ricas em proteína, cálcio e fósforo, são ingredientes indispensáveis para nutrição de animais de 
+                        produção e Pets.
                     </p>
 
                     <div className='2xl:mt-10 flex justify-center'>

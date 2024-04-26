@@ -36,7 +36,9 @@ export default function SectionThree() {
                     
 
                     <p className='mb-10 max-w-[700px] text-center'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ab sequi tenetur consequuntur, quod laudantium inventore aliquam esse neque magni quae id tempora? Non odit consequuntur dicta voluptates, unde eius!
+                        A Farol coleta subprodutos do abate animal que, de outra forma, seriam descartados de forma incorreta no meio ambiente. 
+                        Como exemplo, estão os resíduos que os abatedouros não utilizam, que são transformados em soluções sustentáveis 
+                        para diversas indústrias. Produtos não comestíveis originados na produção de:
                     </p>
                 </div>
 
@@ -66,41 +68,33 @@ export default function SectionThree() {
                 >
                     <SwiperSlide>
                         <div className='w-full p-5 bg-gray-100 rounded-[30px] shadow-md '>
-                            <img src={iconGalinha} className='w-11' alt="" />
-                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172]' >Aves</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ut quas, magnam totam eius omnis laborum.
-                            </p>
+                            <img src={iconGalinha} className='w-11 mx-auto' alt="" />
+                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172] text-center' >Aves</h3>
+                            
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className='w-full p-5 text-white bg-[#108824] rounded-[30px] shadow-md '>
-                            <img src={iconBoi} className='w-11' alt="" />
-                            <h3 className='my-2 text-2xl md:text-3xl font-bold ' >Aves</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ut quas, magnam totam eius omnis laborum.
-                            </p>
+                            <img src={iconBoi} className='w-11 mx-auto' alt="" />
+                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-center' >Bovinos</h3>
+                            
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className='w-full p-5 bg-gray-100 rounded-[30px] shadow-md '>
-                            <img src={iconPeixe} className='w-11' alt="" />
-                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172]' >Aves</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ut quas, magnam totam eius omnis laborum.
-                            </p>
+                            <img src={iconPeixe} className='w-11 mx-auto' alt="" />
+                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172] text-center' >Peixes</h3>
+                            
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className='w-full p-5 bg-gray-100 rounded-[30px] shadow-md '>
-                            <img src={iconPorco} className='w-11' alt="" />
-                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172]' >Aves</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ut quas, magnam totam eius omnis laborum.
-                            </p>
+                            <img src={iconPorco} className='w-11 mx-auto' alt="" />
+                            <h3 className='my-2 text-2xl md:text-3xl font-bold text-[#33a172] text-center' >Suínos</h3>
+                            
                         </div>
                     </SwiperSlide>
                 </Swiper>

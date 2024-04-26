@@ -18,8 +18,8 @@ export default function SectionTwo() {
                     </h2>
 
                     <p className='text-center md:text-start'>
-                        Pertencente ao Grupo Patense, a Farol recicla produtos de origem animal produzindo proteínas e gorduras que 
-                        servem como matérias-primas para diversos setores da economia nacional.
+                        Pertencente ao Grupo Patense, a Farol recicla produtos de origem animal, produzindo proteínas e gorduras 
+                        que servem como matérias-primas para diversos setores da economia nacional.
                     </p>
 
                     <div>

@@ -113,13 +113,13 @@ export default function SectionOne(){
                                 valores 
                             </h2>
                             <ul className='list-disc'>
-                                <li>Agilidade</li>
-                                <li>Autonomia</li>
-                                <li>Comunicação</li>
-                                <li> Humanização do trabalho</li>
-                                <li>Inovação</li>
-                                <li>Parceria</li>
-                                <li>Simplicaidade</li>
+                                <li>Agilidade;</li>
+                                <li>Autonomia;</li>
+                                <li>Comunicação;</li>
+                                <li> Humanização do trabalho;</li>
+                                <li>Inovação;</li>
+                                <li>Parceria;</li>
+                                <li>Simplicaidade.</li>
                             </ul>
                         </div>
                     </SwiperSlide>
